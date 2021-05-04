@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="1dp"
+    android:layout_marginEnd="5dp"
+    android:background="#F1F4F2"
+    android:fadingEdge="horizontal|vertical"
+    app:cardCornerRadius="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F1ED">
+
+
+        <TextView
+            android:id="@+id/person_besin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="TextView"
+            android:textAlignment="inherit"
+            android:textColor="#000000"
+            android:textColorHighlight="#0C0000"
+            android:textColorHint="#0E0000"
+            android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+            android:textSize="15sp"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:id="@+id/person_miktar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="TextView"
+            android:textAlignment="inherit"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/person_kalori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="TextView"
+            android:textAlignment="inherit"
+            android:textColor="#000000"
+            android:textFontWeight="31"
+            android:textSize="15sp"
+            android:textStyle="normal|italic" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

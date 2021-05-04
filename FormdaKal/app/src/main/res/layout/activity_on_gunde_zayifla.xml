@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F4F1ED"
+    tools:context=".OnGundeZayifla">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar12"
+                android:layout_width="413dp"
+                android:layout_height="53dp"
+                android:background="#F4F1ED"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:logo="@drawable/ip"
+                app:navigationIcon="@drawable/back" />
+
+            <TextView
+
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/oval"
+                android:text="Öngörülen süre içinde hedefe ulaşmak için tavsiye edilen dengeli bir diyetin öğün sayısı günde dört veya beştir."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#F3EFEF"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar1" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="5 GÜNDE 2 KİLO"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#FFFFFF"
+                android:textSize="21sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:background="#E8B0B0"
+                android:text="KAHVALTI"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textViewbir"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+              />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:background="#E8B0B0"
+                android:text="ÖĞLE YEMEĞİ"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26sp"
+                app:srcCompat="@drawable/sal" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-1252159248405155/8075306699"></com.google.android.gms.ads.AdView>
+
+            <TextView
+
+                android:id="@+id/textViewiki"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:background="#E8B0B0"
+                android:text="ÖĞLEDEN SONRASI İÇİN APERATİFLER"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textViewüc"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="25dp"
+
+                android:layout_marginEnd="25dp"
+                android:background="#E8B0B0"
+                android:text="AKŞAM YEMEĞİ"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="26dp"
+                app:srcCompat="@drawable/bal" />
+
+            <TextView
+                android:id="@+id/textViewdört"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textViewdört2"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/oval"
+                android:text="Bu beslenme planı ile daha iyi sonuçlar elde etmek için her gün, en az 30 dakika egzersiz yapmanız oldukça önemlidir. Unutmayın ki kardiyovasküler aktiviteler, yağ yakmak için en uygun egzersizlerdendir."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

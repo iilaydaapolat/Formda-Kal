@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F1ED"
+    tools:context=".MainActivitydiyetler">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/dukan"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginStart="-12dp"
+                android:layout_marginEnd="-12dp"
+                android:autoText="false"
+                android:background="@drawable/deneme2"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="DUKAN DİYETİ"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#090909"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_marginTop="30dp"
+                android:id="@+id/karatay"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginStart="-12dp"
+                android:layout_marginEnd="-12dp"
+                android:autoText="false"
+                android:background="@drawable/d11"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="KARATAY DİYETİ"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#090909"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="32dp"
+                android:id="@+id/ketojenik"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginStart="-12dp"
+                android:layout_marginEnd="-12dp"
+                android:autoText="false"
+                android:background="@drawable/keto"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="KETOJENİK DİYETİ"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#090909"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="32dp"
+                android:id="@+id/aralikli"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginStart="-12dp"
+                android:layout_marginEnd="-12dp"
+                android:autoText="false"
+                android:background="@drawable/sonn"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="ARALIKLI ORUÇ DİYETİ"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#090909"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vejetaryan"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginStart="-12dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="-12dp"
+                android:autoText="false"
+                android:background="@drawable/vejetaryenbeslenme"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="VEJETERYAN DİYETİ"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#090909"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="#F4F1ED"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        app:logo="@drawable/ip"
+        app:navigationIcon="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityliflibesinler">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-104dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4F1ED"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar5"
+                android:layout_width="414dp"
+                android:layout_height="53dp"
+                android:background="#F4F1ED"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:logo="@drawable/ip"
+                app:navigationIcon="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:background="#E8B0B0"
+                android:gravity="center"
+                android:text="Lifli besinler zayıflamaya yardımcı olur mu ?"
+                android:textColor="#040404"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="389dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/lifli" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-1252159248405155/7020427089"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:autoText="true"
+
+
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="Lif Dolu Gıdalar"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:text="1-Sebzeler"
+
+                android:textColor="#0B0B0B"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="314dp"
+                android:layout_height="169dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="6dp"
+                app:srcCompat="@drawable/sebze" />
+
+            <TextView
+
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:text="2-Dutsu meyveler"
+                android:textColor="#040303"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="316dp"
+                android:layout_height="229dp"
+                android:layout_marginStart="50dp"
+                app:srcCompat="@drawable/dutsu" />
+
+            <TextView
+
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:text="3-Tam tahıllar"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="271dp"
+                android:layout_height="211dp"
+                android:layout_marginStart="75dp"
+                app:srcCompat="@drawable/tam" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:text="4-Kuruyemiş"
+                android:textColor="#020202"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="285dp"
+                android:layout_height="185dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="7dp"
+                app:srcCompat="@drawable/kuru1" />
+
+            <TextView
+
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
